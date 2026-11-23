@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Há 54 anos, a AMBAJAI une moradores do Jardim Itu em torno de cultura, saúde, convivência e participação comunitária. Conheça nossas atividades, eventos e faça parte da nossa história." />
+  <meta name="keywords" content="AMBAJAI, Associação dos Moradores, Jardim Itu, Bairro, Comunidade, Porto Alegre, Coral, Feira de Artesanato, Brechó" />
+  <meta name="author" content="AMBAJAI" />
+  <meta property="og:title" content="AMBAJAI — Associação dos Moradores do Bairro Jardim Itu" />
+  <meta property="og:description" content="54 anos construindo juntos o bairro que queremos viver." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="./images/logo-ambajai.jpg" />
+  <link rel="icon" href="./images/logo-ambajai.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>AMBAJAI — Associação dos Moradores do Bairro Jardim Itu</title>
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner">
+      <a href="#inicio" class="brand" aria-label="AMBAJAI — início">
+        <span class="brand-logo-wrap">
+          <img src="./images/logo-ambajai.jpg" alt="Logo AMBAJAI — aperto de mãos em verde" class="brand-logo" />
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">AMBAJAI</span>
+          <span class="brand-sub">Associação dos Moradores do Bairro Jardim Itu</span>
+        </span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#participar" class="btn btn-primary btn-sm nav-cta">Faça parte</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="menu-icon"></span>
+          <span class="menu-icon"></span>
+          <span class="menu-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="mobile-menu-header">
+        <div class="mobile-brand">
+          <img src="./images/logo-ambajai.jpg" alt="Logo AMBAJAI" class="mobile-logo" />
+          <span class="brand-name">AMBAJAI</span>
+        </div>
+        <button class="mobile-close" id="mobileClose" aria-label="Fechar menu">&times;</button>
+      </div>
+      <ul class="mobile-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a href="#participar" class="btn btn-primary mobile-cta">Faça parte da AMBAJAI</a>
+      <p class="mobile-address">Rua Biskaia, 39 — Jardim Itu</p>
+    </div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <!-- Ken Burns background -->
+      <div class="hero-bg-wrap">
+        <img src="./images/hero-bg.jpg" alt="Bairro Jardim Itu ao entardecer, ruas arborizadas e casas aconchegantes" class="hero-bg animate-kenburns" />
+        <div class="hero-overlay-1"></div>
+        <div class="hero-overlay-2"></div>
+        <div class="hero-spotlight"></div>
+      </div>
+
+      <!-- Floating particles -->
+      <div class="hero-particles" aria-hidden="true">
+        <span class="particle p1"></span>
+        <span class="particle p2"></span>
+        <span class="particle p3"></span>
+      </div>
+
+      <!-- Content: Fade In Up with Scale (staggered) -->
+      <div class="hero-content">
+        <div class="hero-logo reveal-soft">
+          <div class="hero-logo-glow"></div>
+          <div class="hero-logo-badge">
+            <img src="./images/logo-ambajai.jpg" alt="Logo AMBAJAI — aperto de mãos em verde" />
+          </div>
+        </div>
+
+        <p class="hero-eyebrow reveal-soft" style="--delay: .1s">Associação dos Moradores do Bairro Jardim Itu</p>
+
+        <h1 class="hero-title reveal-soft" style="--delay: .2s">AMBAJAI</h1>
+
+        <div class="hero-divider reveal-soft" style="--delay: .3s">
+          <span class="line"></span>
+          <span class="star">✦</span>
+          <span class="line"></span>
+        </div>
+
+        <p class="hero-tagline reveal-soft" style="--delay: .4s">
+          Há <strong>décadas</strong> construindo juntos o bairro que queremos viver.
+        </p>
+
+        <p class="hero-sub reveal-soft" style="--delay: .5s">
+          União, cultura, saúde e participação comunitária; do aperto de mãos que
+          nos define à voz de cada morador.
+        </p>
+
+        <div class="hero-ctas reveal-soft" style="--delay: .6s">
+          <a href="#sobre" class="btn btn-lime">Conheça a AMBAJAI</a>
+          <a href="#atividades" class="btn btn-glass">Nossas atividades</a>
+        </div>
+
+        <div class="hero-facts reveal-soft" style="--delay: .75s">
+          <span class="fact"><span class="fact-icon">📅</span> 54 anos de história</span>
+          <span class="fact-sep"></span>
+          <span class="fact"><span class="fact-icon">👥</span> Comunidade ativa</span>
+          <span class="fact-sep"></span>
+          <span class="fact"><span class="fact-icon">📍</span> Rua Biskaia, 39 — Jardim Itu</span>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#sobre" class="scroll-indicator" aria-label="Rolar para a próxima seção">
+        <span class="scroll-label">Role</span>
+        <span class="scroll-arrow">▼</span>
+      </a>
+
+      <div class="hero-bottom-fade"></div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="about" id="sobre">
+      <!-- Parallax band -->
+      <div class="parallax-band about-band">
+        <div class="parallax-img-wrap">
+          <img src="./images/community.jpg" alt="Moradores do Jardim Itu reunidos em parque verdejante" class="parallax-img about-px" data-parallax="0.18" />
+        </div>
+        <div class="band-overlay"></div>
+        <div class="band-content">
+          <p class="eyebrow eyebrow-lime reveal">Nossa missão</p>
+          <p class="band-quote reveal" style="--delay:.1s">
+            &ldquo;Promover a convivência e, juntos, construirmos<span class="lime"> o bairro que queremos para viver.</span>&rdquo;
+          </p>
+          <p class="band-attr reveal" style="--delay:.2s">— AMBAJAI, Associação dos Moradores do Bairro Jardim Itu</p>
+        </div>
+      </div>
+
+      <!-- Story + stats -->
+      <div class="container about-story">
+        <div class="about-text reveal">
+          <p class="eyebrow eyebrow-leaf">Quem somos - Nossos valores</p>
+          <h2 class="section-title">
+            Uma associação, um bairro, <span class="text-gradient-forest">décadas de história</span>
+          </h2>
+          <div class="prose">
+            <p>A <strong class="forest">AMBAJAI</strong> nasceu, lá pelos idos de Julho de 1972, do aperto de mãos que se tornou nosso símbolo: a união entre moradores do Jardim Itu em torno de um bairro mais acolhedor, saudável e vivo.</p>
+            <p>Há mais de cinco décadas, promovemos cultura, saúde, convivência e participação comunitária. Do coral às feiras de artesanato, do brechó solidário às reuniões com a comunidade, cada atividade é uma forma de cuidar do lugar que chamamos de lar.</p>
+            <p>Aqui, tradição e renovação caminham juntas. Este site é parte dessa renovação: um espaço para conhecer, participar e fazer parte da próxima página da nossa história.</p>
+          </div>
+        </div>
+
+        <div class="stats-grid reveal-stagger">
+          <div class="stat-card reveal-item">
+            <div class="stat-value text-gradient-forest">54</div>
+            <div class="stat-label">anos de história</div>
+          </div>
+          <div class="stat-card reveal-item">
+            <div class="stat-value text-gradient-forest">+12</div>
+            <div class="stat-label">atividades regulares</div>
+          </div>
+          <div class="stat-card reveal-item">
+            <div class="stat-value text-gradient-forest">100%</div>
+            <div class="stat-label">movimento voluntário</div>
+          </div>
+          <div class="stat-card reveal-item">
+            <div class="stat-value text-gradient-forest">1</div>
+            <div class="stat-label">bairro, muitas vozes</div>
+          </div>
+        </div>
+
+        <div class="values-grid reveal-stagger">
+          <div class="value-card reveal-item">
+            <div class="value-icon">🤝</div>
+            <h3>União</h3>
+            <p>Do aperto de mãos do nosso logo à força de cada morador: juntos somos o bairro.</p>
+          </div>
+          <div class="value-card reveal-item">
+            <div class="value-icon">📢</div>
+            <h3>Participação</h3>
+            <p>Sua voz importa. Reuniões abertas para construir coletivamente o futuro do Jardim Itu.</p>
+          </div>
+          <div class="value-card reveal-item">
+            <div class="value-icon">✨</div>
+            <h3>Tradição</h3>
+            <p>54 anos de história, coral, feiras e festas que celebram nossa identidade comunitária.</p>
+          </div>
+          <div class="value-card reveal-item">
+            <div class="value-icon">💗</div>
+            <h3>Cooperação</h3>
+            <p>Cuidamos uns dos outros. Da saúde à economia solidária, das pessoas aos animais, somos todos o mesmo bairro.</p>
+          </div>
+        </div>
+	<p class="eyebrow eyebrow-leaf center">SEMPRE COM RESPEITO E MUITA TRANSPARÊNCIA</p> 	  
+      </div>
+    </section>
+
+    <!-- ============ ATIVIDADES ============ -->
+    <section class="activities" id="atividades">
+      <div class="activities-px-wrap">
+        <img src="./images/activities-bg.jpg" alt="" class="activities-px" data-parallax="0.1" aria-hidden="true" />
+      </div>
+      <div class="activities-tint"></div>
+      <div class="container activities-inner">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow-leaf center">Nosso propósito</p>
+          <h2 class="section-title center">Atividades que fazemos</h2>
+          <p class="section-lead center">
+            Muito mais do que uma associação, somos um movimento de 
+	    <strong>gente que se cuida e cuida do seu bairro,</strong> esse é o nosso 
+	    <strong>propósito.</strong> Conheça as ações que movimentam o Jardim Itu
+	    durante todo o ano.
+          </p>
+        </div>
+
+        <div class="activities-grid reveal-stagger">
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">🎵</div>
+            <h3>Coral AMBAJAI</h3>
+            <p>Descubra seu potencial para cantar. Um espaço de convivência, música e amizade aberto a todos os moradores.</p>
+            <span class="activity-schedule">Sextas · 14h às 16h</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">🛍️</div>
+            <h3>Feira de Artesanato</h3>
+            <p>Crochê, acessórios, decoração, suculentas, pães e doces. Arte da comunidade, feita por mãos do bairro.</p>
+            <span class="activity-schedule">Eventos sazonais · 9h às 17h</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">👕</div>
+            <h3>Brechó da AMBAJAI</h3>
+            <p>Roupas, calçados, acessórios e utensílios. Economia solidária, sustentabilidade e garimpo que gera recursos.</p>
+            <span class="activity-schedule">Eventos sazonais · 9h às 17h</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">👥</div>
+            <h3>Reuniões com a Comunidade</h3>
+            <p>Dê sua opinião, traga sugestões, participe. Um bairro melhor se constrói com a voz de quem mora nele.</p>
+            <span class="activity-schedule">Aos sábados · 9h às 10h</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">💗</div>
+            <h3>Saúde &amp; Prevenção</h3>
+            <p>Outubro Rosa, combate à dengue e campanhas de bem-estar. Cuidar da comunidade é cuidar de cada um.</p>
+            <span class="activity-schedule">Campanhas ao longo do ano</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">🧘</div>
+            <h3>Grupo 60+ e Ginástica</h3>
+            <p>Movimento, convivência e saúde para a melhor idade. Rodas de conversa, música, poesia e dança.</p>
+            <span class="activity-schedule">Encontros regulares</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">🍽️</div>
+            <h3>Eventos &amp; Almoços</h3>
+            <p>Feijoada, chá das mães, chá da primavera e almoços comemorativos. À mesa, a comunidade se encontra.</p>
+            <span class="activity-schedule">Datas comemorativas</span>
+          </article>
+
+          <article class="activity-card reveal-item">
+            <div class="activity-icon">🌾</div>
+            <h3>Cultura &amp; Tradição</h3>
+            <p>Roda de música, poesia e dança em parceria com CTG Tiaracu e grupos culturais do bairro.</p>
+            <span class="activity-schedule">Eventos especiais</span>
+          </article>
+        </div>
+
+        <p class="activities-note reveal" style="--delay:.1s">
+          Todas as atividades acontecem na <strong class="forest">Rua Biskaia, 39 — Jardim Itu</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section class="gallery" id="galeria">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow-leaf center">Nossa visão do futuro</p>
+          <h2 class="section-title center">Memórias do Jardim Itu</h2>
+          <p class="section-lead center">
+            Queremos que a AMBAJAI seja lembrada e reconhecida como a voz e o ponto 
+	    de encontro da comunidade, com participação de todas as gerações.
+	    Em breve, uma galeria totalmente remodelada.
+          </p>
+        </div>
+
+        <div class="gallery-grid reveal-stagger">
+          <figure class="gallery-item span-2x2 reveal-item">
+            <img src="./images/insta-7.jpg" alt="Grupo de moradoras em camisetas rosa na Unidade Básica de Saúde" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Saúde</span>
+              <p>Outubro Rosa: moradoras unidas pela saúde da mulher</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item reveal-item">
+            <img src="./images/insta-5.jpg" alt="Feira de Produtos Artesanais da AMBAJAI" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Artesanato</span>
+              <p>Feira de Produtos Artesanais: arte da comunidade</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item reveal-item">
+            <img src="./images/insta-6.jpg" alt="Outubro Rosa sobre prevenção ao câncer de mama" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Saúde</span>
+              <p>Prevenção e informação que salvam vidas</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item span-2x reveal-item">
+            <img src="./images/insta-4.jpg" alt="Evento: coral" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Cultura</span>
+              <p>Coral, cultura e participação: nosso bairro em movimento</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item reveal-item">
+            <img src="./images/insta-2.jpg" alt="Eventos gastronômicos" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Tradição</span>
+              <p>54 anos de festas, feiras e celebrações</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item reveal-item">
+            <img src="./images/insta-3.jpg" alt="Brechó" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Convivência</span>
+              <p>Feijoada, brechó e reuniões: a agenda do bairro</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item span-2x reveal-item">
+            <img src="./images/insta-1.jpg" alt="Perfil do Instagram da AMBAJAI com publicações da associação" loading="lazy" />
+            <figcaption>
+              <span class="gallery-tag">Comunidade</span>
+              <p>Siga @jardimituambajai e acompanhe o bairro</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="gallery-cta reveal" style="--delay:.1s">
+          <a href="https://www.instagram.com/jardimituambajai/" target="_blank" rel="noopener noreferrer" class="btn btn-gradient instagram-btn">
+            <span class="ig-icon">📷</span> Acompanhe no Instagram
+          </a>
+          <span class="gallery-handle"><span class="fact-icon">📸</span> @jardimituambajai</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EVENTOS ============ -->
+    <section class="events" id="eventos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow-leaf">Agenda</p>
+          <h2 class="section-title">Próximos encontros</h2>
+          <p class="section-lead">
+            A AMBAJAI se reúne o ano inteiro. Confira nossa agenda regular e fique
+            de olho nos eventos especiais que anunciamos no Instagram.
+          </p>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-feature reveal">
+            <div class="event-glow-1"></div>
+            <div class="event-glow-2"></div>
+            <div class="event-feature-content">
+              <span class="event-badge"><span class="pulse-dot"></span> Próximo encontro</span>
+              <h3>Reunião com a Comunidade</h3>
+              <p>A oportunidade mensal para você opinar, sugerir e decidir com a gente. &ldquo;Vamos construir juntos o bairro que queremos viver.&rdquo;</p>
+              <div class="event-meta">
+                <div class="event-meta-row"><span class="meta-icon">🕒</span> Aos sábados · 9h às 10h</div>
+                <div class="event-meta-row"><span class="meta-icon">📍</span> Rua Biskaia, 39 — Jardim Itu</div>
+                <div class="event-meta-row"><span class="meta-icon">🔁</span> Encontro recorrente · aberto a todos</div>
+              </div>
+              <a href="#contato" class="btn btn-white event-cta">Quero participar <span class="arrow">→</span></a>
+            </div>
+          </article>
+
+          <div class="events-list reveal-stagger">
+            <article class="event-row reveal-item">
+              <div class="event-row-icon">🔁</div>
+              <div class="event-row-body">
+                <div class="event-row-head">
+                  <h4>Reunião com a Comunidade</h4>
+                  <span class="recurring-tag">Recorrente</span>
+                </div>
+                <p>Sua voz importa. Opiniões, sugestões e decisões do bairro.</p>
+                <span class="event-row-when"><span class="when-icon">🕒</span> Aos sábados · 9h às 10h</span>
+              </div>
+            </article>
+
+            <article class="event-row reveal-item">
+              <div class="event-row-icon">🔁</div>
+              <div class="event-row-body">
+                <div class="event-row-head">
+                  <h4>Coral AMBAJAI</h4>
+                  <span class="recurring-tag">Recorrente</span>
+                </div>
+                <p>Ensaio aberto a todos os moradores que querem cantar.</p>
+                <span class="event-row-when"><span class="when-icon">🕒</span> Sextas-feiras · 14h às 16h</span>
+              </div>
+            </article>
+
+            <article class="event-row reveal-item">
+              <div class="event-row-icon">📅</div>
+              <div class="event-row-body">
+                <div class="event-row-head">
+                  <h4>Feira de Artesanato</h4>
+                </div>
+                <p>Crochê, suculentas, pães, doces e arte da comunidade.</p>
+                <span class="event-row-when"><span class="when-icon">🕒</span> Datas especiais · 9h às 17h</span>
+              </div>
+            </article>
+
+            <article class="event-row reveal-item">
+              <div class="event-row-icon">📅</div>
+              <div class="event-row-body">
+                <div class="event-row-head">
+                  <h4>Brechó da AMBAJAI</h4>
+                </div>
+                <p>Roupas, calçados e acessórios em economia solidária.</p>
+                <span class="event-row-when"><span class="when-icon">🕒</span> Datas especiais · 9h às 17h</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="events-note reveal" style="--delay:.1s">
+          Eventos especiais — feiras, brechó, feijoada, chás e almoços comemorativos — são divulgados com data no nosso
+          <a href="https://www.instagram.com/jardimituambajai/" target="_blank" rel="noopener noreferrer">Instagram</a>.
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAÇA PARTE ============ -->
+    <section class="join" id="participar">
+      <div class="join-px-wrap">
+        <img src="./images/unity-hands.jpg" alt="Mãos de moradores se unindo em círculo, símbolo de cooperação" class="join-px" data-parallax="0.14" />
+      </div>
+      <div class="join-overlay-1"></div>
+      <div class="join-overlay-2"></div>
+
+      <div class="container join-inner">
+        <div class="reveal">
+          <p class="eyebrow eyebrow-lime center">Faça parte</p>
+          <h2 class="join-title">
+            Sua voz importa.<br />
+            <span class="lime">Sua presença transforma.</span>
+          </h2>
+          <p class="join-lead">
+            A AMBAJAI é feita de moradores como você. Junte-se à nossa comunidade
+            e ajude a construir o bairro que todos queremos viver.
+          </p>
+        </div>
+
+        <div class="reasons-grid reveal-stagger">
+          <div class="reason-card reveal-item">
+            <div class="reason-icon">📢</div>
+            <h3>Participe das decisões</h3>
+            <p>Sua voz define o futuro do bairro. Vote, sugira e ajude a escolher caminhos.</p>
+          </div>
+          <div class="reason-card reveal-item">
+            <div class="reason-icon">🌱</div>
+            <h3>Faça parte de algo maior</h3>
+            <p>Coral, feiras, brechó, eventos — uma rede de gente que cuida do lugar.</p>
+          </div>
+          <div class="reason-card reveal-item">
+            <div class="reason-icon">🤝</div>
+            <h3>Ajude e seja ajudado</h3>
+            <p>Solidariedade na prática: apoio mútuo, saúde e convivência entre vizinhos.</p>
+          </div>
+        </div>
+
+        <div class="join-cta reveal" style="--delay:.15s">
+          <a href="#contato" class="btn btn-lime btn-lg">Quero participar <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="contact" id="contato">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow-leaf center">Fale com a gente</p>
+          <h2 class="section-title center">Entre em contato</h2>
+          <p class="section-lead center">
+            Tem dúvidas, sugestões ou quer participar? A AMBAJAI é de portas
+            abertas — venha conversar.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact info -->
+          <div class="contact-info reveal-stagger">
+            <div class="info-card reveal-item">
+              <div class="info-icon">📍</div>
+              <h3>Endereço</h3>
+              <p>Rua Biskaia, 39</p>
+              <p>Jardim Itu, Porto Alegre - RS, CEP 91380-030</p>
+            </div>
+            <a href="mailto:ambajai.1972@gmail.com" class="info-card-link reveal-item">
+              <div class="info-card">
+                <div class="info-icon">✉️</div>
+                <h3>E-mail</h3>
+                <p>ambajai.1972@gmail.com</p>
+              </div>
+            </a>
+            <div class="info-card reveal-item">
+              <div class="info-icon">📞</div>
+              <h3>Whatsapp</h3>
+              <p>(51) XXXXX-YYYY</p>
+              <p class="muted">(em breve)</p>
+            </div>
+            <a href="https://www.instagram.com/jardimituambajai/" target="_blank" rel="noopener noreferrer" class="info-card-link reveal-item">
+              <div class="info-card">
+                <div class="info-icon">📷</div>
+                <h3>Instagram</h3>
+                <p>@jardimituambajai</p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Form -->
+          <form class="contact-form reveal" id="contactForm" style="--delay:.1s">
+            <h3>Envie uma mensagem</h3>
+            <p class="form-sub">
+              Respondemos pelo e-mail informado, geralmente em poucos dias.
+            </p>
+            <div class="form-field">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" placeholder="Seu nome completo" required />
+            </div>
+            <div class="form-field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@email.com" required />
+            </div>
+            <div class="form-field">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="4" placeholder="Conte como você quer participar, suas dúvidas ou sugestões..." required></textarea>
+            </div>
+            <!-- FormSubmit configuration (hidden fields) -->
+            <input type="hidden" name="_subject" value="Nova mensagem para a AMBAJAI" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <button type="submit" class="btn btn-primary btn-block btn-submit" id="submitBtn">
+              <span class="btn-label">Enviar mensagem</span>
+              <span class="btn-spinner" hidden>⏳</span>
+            </button>
+            <p class="form-success" id="formSuccess" hidden>
+              ✅ Mensagem enviada! Em breve a AMBAJAI responderá. Obrigado!
+            </p>
+            <p class="form-error" id="formError" hidden>
+              ❌ Não foi possível enviar agora. Escreva direto para
+              <a href="mailto:ambajai.1972@gmail.com">ambajai.1972@gmail.com</a>.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-accent"></div>
+    <div class="container footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-head">
+            <img src="./images/logo-ambajai.jpg" alt="Logo AMBAJAI" class="footer-logo" />
+            <div>
+              <p class="footer-name">AMBAJAI</p>
+              <p class="footer-sub">Associação dos Moradores do Bairro Jardim Itu</p>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Há 54 anos unindo moradores do Jardim Itu em torno de cultura, saúde,
+            convivência e participação comunitária. Do aperto de mãos que nos
+            define à voz de cada morador.
+          </p>
+          <a href="https://www.instagram.com/jardimituambajai/" target="_blank" rel="noopener noreferrer" class="btn btn-glass-dark footer-ig">
+            📷 @jardimituambajai ↗
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Atividades</h4>
+          <ul>
+            <li><a href="#atividades">Coral AMBAJAI</a></li>
+            <li><a href="#atividades">Feira de Artesanato</a></li>
+            <li><a href="#atividades">Brechó</a></li>
+            <li><a href="#eventos">Reuniões comunitárias</a></li>
+            <li><a href="#atividades">Saúde &amp; Prevenção</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul class="footer-contact">
+            <li><span class="fc-icon">📍</span> <span>Rua Biskaia, 39<br />Jardim Itu, Porto Alegre - RS, CEP 91380-030</span></li>
+            <li><span class="fc-icon">✉️</span> <a href="mailto:ambajai.1972@gmail.com">ambajai.1972@gmail.com</a></li>
+            <li><span class="fc-icon">📞</span> <span>(51) XXXXX-YYYY</span></li>
+            <li><span class="fc-icon">📷</span> <a href="https://www.instagram.com/jardimituambajai/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> AMBAJAI · Associação dos Moradores do Bairro Jardim Itu · 54 anos de história</p>
+        <p class="footer-made">Feito com <span class="heart">💚 by Flávio Suwa </span>2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">↑</button>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
